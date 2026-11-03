@@ -16,6 +16,12 @@ Con el prototipo se busca que permita seleccionar tres tipo de funciones disponi
 ### 1.2 Proyectos similares
 [ pendiente ]
 
+### 1.3 Selección de proyecto
+[ pendiente ]
+
+## 2. Elicitación de requisitos y casos de uso
+[ pendiente ]
+
 
 - Hardware obligatorio:
   -  Dip Switchs, Buttons, Leds, Buzzer, módulo HM-10 (para usar App vía Bluetooth).
