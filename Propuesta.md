@@ -1,3 +1,22 @@
+# Generador de funciones
+
+**Autores:** Pollero Johann; Rivarola Nacho; Villegas Wanda
+
+**Padrón:** 108752; 112199; 113805
+
+**Fecha:** 2do cuatrimestre 2026
+
+
+## 1. Selección del proyecto a implementar
+
+### 1.1 Objetivo del proyecto y resultados esperados
+El objetivo de este proyecto es implementar un generador de funciones.
+Con el prototipo se busca que permita seleccionar tres tipo de funciones disponibles: senoidal, cuadrada y triangulares, configurar la frecuencia de la señal, iniciar o detener la señal desde entradas analógicas. Además se utilizará un modo de guardado de configuración y señal en un dispositivo como computadora o celular mediante conexión a Bluetooth.  
+
+### 1.2 Proyectos similares
+[ pendiente ]
+
+
 - Hardware obligatorio:
   -  Dip Switchs, Buttons, Leds, Buzzer, módulo HM-10 (para usar App vía Bluetooth).
   -  Memoria E2PROM externa o Flash interna (almacenamiento del SET_UP)
