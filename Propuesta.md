@@ -1,6 +1,6 @@
 # Generador de funciones
 
-**Autores:** Pollero Johann; Rivarola Nacho; Villegas Wanda
+**Autores:** Pollero Johann; Rivarola Ignacio; Villegas Wanda
 
 **Padrón:** 108752; 112199; 113805
 
