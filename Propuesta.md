@@ -16,9 +16,9 @@ Se espera que el prototipo permita generar señales de prueba para analizar la r
 ### 1.2 Proyectos similares
 En base al objetivo se proponen estas posibles alternativas de implementación del generador de funciones, que se diferencian principalmente en sus capacidades. Para seleccionar la alternativa más adecuada, se ponderan los aspectos de criterio de cada alternativa.
 
-1. **Generador Básico:** Control mediante entradas analógicas con capacidad de comunicación Bluetooth (HM-10) para visualización/control desde una App en dispositivo, y uso de memoria (E2PROM/Flash) para almacenar el SET_UP del usuario.
-2. **Generador Básico + Pantalla LCD + Bluetooth + Memoria:** Sistema de generación de señales con control manual (encoders/potenciómetros) que incluye una pantalla LCD para visualizar la configuración aplicada a la onda, pero sin conectividad externa ni guardado en memoria no volátil.
-3. **Generador Básico + Pantalla OLED + Bluetooth + Memoria:** Sistema de generación de señales con control manual (encoders/potenciómetros) que incluye una pantalla OLED para visualizar la onda configurada con sus parámetros, pero sin conectividad externa ni guardado en memoria no volátil.
+1. **Generador Básico:** Generador de señales controlado exclusivamente mediante potenciómetros analógicos, sin capacidad de almacenamiento ni conectividad.
+2. **Generador Básico + Pantalla LCD + Bluetooth + Memoria:** Sistema de generación de señales con control manual (encoders/potenciómetros) que incluye una pantalla LCD para visualizar la configuración aplicada a la onda, con conectividad externa y guardado en memoria no volátil.
+3. **Generador Básico + Pantalla OLED + Bluetooth + Memoria:** Sistema de generación de señales con control manual (encoders/potenciómetros) que incluye una pantalla OLED para visualizar la onda medida y con sus parámetros, con conectividad externa y guardado en memoria no volátil.
 
 
 Para comparar estas alternativas, se tienen en cuenta cinco aspectos característicos, los cuales se ponderan del 1 al 10:
@@ -34,9 +34,9 @@ La siguiente tabla (Tabla 1) muestra los valores ponderados asignados a cada pro
     <thead>
         <tr>
             <th rowspan="2">Criterio</th>
-            <th colspan="2">1. Analógico Básico</th>
-            <th colspan="2">2. Básico + Pantalla LCD</th>
-            <th colspan="2">3. Bluetooth + Memoria</th>
+            <th colspan="2">1. Generador Básico</th>
+            <th colspan="2">2. Generador Básico + Pantalla LCD + Bluetooth + Memoria</th>
+            <th colspan="2">3. Generador Básico + Pantalla OLED + Bluetooth + Memoria</th>
         </tr>
         <tr>
             <th>Puntaje</th>
@@ -109,6 +109,9 @@ La siguiente tabla (Tabla 1) muestra los valores ponderados asignados a cada pro
   
 ### 1.3 Selección de proyecto
 [ pendiente ]
+
+## 1.3.1 Diagrama en bloques
+[pendiente]
 
 ## 2. Elicitación de requisitos y casos de uso
 [ pendiente ]
