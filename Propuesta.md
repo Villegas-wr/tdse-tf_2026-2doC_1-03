@@ -34,9 +34,9 @@ La siguiente tabla (Tabla 1) muestra los valores ponderados asignados a cada pro
     <thead>
         <tr>
             <th rowspan="2">Criterio</th>
-            <th colspan="2">1. Generador Básico</th>
-            <th colspan="2">2. Generador Básico + Pantalla LCD + Bluetooth + Memoria</th>
-            <th colspan="2">3. Generador Básico + Pantalla OLED + Bluetooth + Memoria</th>
+            <th colspan="2">Generador Básico</th>
+            <th colspan="2">Generador Básico + Pantalla LCD + Bluetooth + Memoria</th>
+            <th colspan="2">Generador Básico + Pantalla OLED + Bluetooth + Memoria</th>
         </tr>
         <tr>
             <th>Puntaje</th>
