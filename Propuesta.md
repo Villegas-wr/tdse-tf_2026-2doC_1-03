@@ -110,8 +110,9 @@ La siguiente tabla (Tabla 1) muestra los valores ponderados asignados a cada pro
 ### 1.3 Selección de proyecto
 [ pendiente ]
 
-## 1.3.1 Diagrama en bloques
-[pendiente]
+#### 1.3.1 Diagrama en bloques
+<img width="1334" height="761" alt="image" src="https://github.com/user-attachments/assets/52e05412-008b-4951-b8ff-4011af683912" />
+
 
 ## 2. Elicitación de requisitos y casos de uso
 [ pendiente ]
