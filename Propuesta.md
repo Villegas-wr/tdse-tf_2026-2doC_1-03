@@ -11,7 +11,7 @@
 
 ### 1.1 Objetivo del proyecto y resultados esperados
 El objetivo de este proyecto es implementar un generador de funciones.
-Se busca que el prototipo permita seleccionar entre tres tipos de funciones disponibles: senoidal, cuadrada y triangulares, configurar la frecuencia y amplitud de la señal, iniciar o detener la señal desde entradas analógicas. Además se implementará un modo de guardado de configuración y señal en un dispositivo como computadora o celular mediante conexión a Bluetooth.  
+Se busca que el dispositivo permita seleccionar entre tres tipos de funciones disponibles: senoidal, cuadrada y triangulares, configurar la frecuencia y amplitud de la señal, iniciar o detener la señal desde entradas analógicas. Además se implementará un modo de guardado de configuración y señal en un dispositivo como computadora o celular mediante conexión a Bluetooth.  
 
 ### 1.2 Proyectos similares
 [ pendiente ]
