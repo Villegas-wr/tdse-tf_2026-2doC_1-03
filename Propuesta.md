@@ -116,7 +116,7 @@ Esta elección se justifica debido las siguientes razones:
   * Factibilidad y Disponibilidad (90/90 pts en HW, 80/80 en Viabilidad): Los componentes requeridos (pantalla OLED I2C/SPI, módulo HM-10, potenciómetros y memoria) son de alta disponibilidad local y su integración dentro de la arquitectura Event-Triggered es técnicamente viable en el plazo del cuatrimestre.
 
 #### 1.3.1 Diagrama en bloques
-<img width="1334" height="761" alt="image" src="https://github.com/user-attachments/assets/52e05412-008b-4951-b8ff-4011af683912" />
+<img width="900" height="508" alt="image" src="https://github.com/user-attachments/assets/6731b34b-8d30-4484-aa2d-e5c0c033136c" />
 
 A continuación se detallan los módulos del diagrama:
 
