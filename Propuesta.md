@@ -1,3 +1,5 @@
+<img width="332" height="116" alt="image" src="https://github.com/user-attachments/assets/4d37edb0-dd1e-4d64-8be6-1043f9219c48" />
+
 # Generador de funciones
 
 **Autores:** Pollero Johann; Rivarola Ignacio; Villegas Wanda
@@ -28,7 +30,7 @@ Para comparar estas alternativas, se tienen en cuenta cinco aspectos caracterís
 4.  **Viabilidad (10):** Se contempla el tiempo requerido y la complejidad de implementación (firmware y hardware).
 5.  **Interés personal del equipo (7):** Se pondera la motivación e interés del equipo en implementar cada alternativa.
 
-La siguiente tabla (Tabla 1) muestra los valores ponderados asignados a cada proyecto considerado:
+La siguiente tabla (Tabla 1) muestra los valores ponderados asignados a cada proyecto considerado.
 
 <table>
     <thead>
@@ -108,15 +110,17 @@ La siguiente tabla (Tabla 1) muestra los valores ponderados asignados a cada pro
 
   
 ### 1.3 Selección de proyecto
-A partir del analisis realizado en el punto anterior, se selecciona la 3ra Alternativa (Generador Básico + Pantalla OLED + Bluetooth + Memoria), la cual obtuvo la calificación ponderada más alta.
+A partir del análisis realizado en la sección 1.2, se selecciona la 3ra Alternativa (Generador Básico + Pantalla OLED + Bluetooth + Memoria), la cual obtuvo la calificación ponderada más alta.
 
 Esta elección se justifica debido las siguientes razones:
   * Mayor Impacto y Experiencia de Usuario: La pantalla OLED permite representar de forma gráfica y nítida la forma de onda sintética generada, sus parámetros numéricos exactos y la navegación de menús intuitivos, mejorando drásticamente el valor didáctico y funcional del prototipo respecto a pantallas numéricas o alfanuméricas tradicionales.
   * Conectividad y Almacenamiento: El módulo Bluetooth HM-10 posibilita el control remoto y la telemetría desde dispositivos móviles (App), mientras que la memoria no volátil (E2PROM/Flash) garantiza la persistencia de las configuraciones de onda (SET_UP) tras un reinicio del sistema.
   * Factibilidad y Disponibilidad (90/90 pts en HW, 80/80 en Viabilidad): Los componentes requeridos (pantalla OLED I2C/SPI, módulo HM-10, potenciómetros y memoria) son de alta disponibilidad local y su integración dentro de la arquitectura Event-Triggered es técnicamente viable en el plazo del cuatrimestre.
 
-#### 1.3.1 Diagrama en bloques
+En la figura 1.3.1, se presenta el diagrama en bloques, planteando de forma gráfico las características del prototipo del generador de funciones en relación con el microcontrolador. 
+
 <img width="900" height="508" alt="image" src="https://github.com/user-attachments/assets/6731b34b-8d30-4484-aa2d-e5c0c033136c" />
+<p align="center"><em>Figura 1.3.1: Diagrama en bloques del sistema</em></p>
 
 A continuación se detallan los módulos del diagrama:
 
@@ -137,7 +141,7 @@ A continuación se detallan los módulos del diagrama:
 
 ## 2. Elicitación de requisitos y casos de uso
 ### 2.1 Requisitos del sistema
-En la siguiente tabla se detallan los requisitos del sistema clasificándolos en las categorías de "Hardware" y "Software"
+En la tabla 2 se detallan los requisitos del sistema clasificándolos en las categorías de "Hardware" y "Software"
 <table>
   <thead>
     <tr>
