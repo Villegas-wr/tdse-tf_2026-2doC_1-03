@@ -251,7 +251,7 @@ En la siguiente tabla se detallan los requisitos del sistema clasificándolos en
 </table>
 <p align="center"><em>Tabla 2: Requisitos del sistema</em></p>
 
-### 2.1 Casos de uso
+### 2.2 Casos de uso
 A continuación se detallan los casos de uso principales que describen la interacción del usuario y la respuesta del sistema.
 
 #### Caso 1: Configuración Manual y Generación de Onda
