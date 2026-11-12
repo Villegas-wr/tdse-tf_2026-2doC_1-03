@@ -12,9 +12,9 @@
 
 De acuerdo con lo solicitado por la cátedra, se utiliza el siguiente código de colores para reflejar el estado real de implementación de cada requisito del proyecto:
 
-* 🟢 **Verde (Completado):** El requisito se encuentra implementado en firmware/hardware, integrado y validado mediante pruebas funcionales.
-* 🟡 **Amarillo (En Progreso):** El requisito se encuentra parcialmente desarrollado, en etapa de prototipado en protoboard/simulación o pendiente de validación/integración.
-* 🔴 **Rojo (No se implementará):** El requisito no será implementado. 
+* 🟢 **Verde:** El requisito <ins> se encuentra implementado </ins> en firmware/hardware, integrado y validado mediante pruebas funcionales.
+* 🟡 **Amarillo:** El requisito <ins> se encuentra parcialmente desarrollado</ins>, en etapa de prototipado en protoboard/simulación o pendiente de validación/integración.
+* 🔴 **Rojo:** El requisito <ins> no será implementado </ins>. 
 
 ---
 
