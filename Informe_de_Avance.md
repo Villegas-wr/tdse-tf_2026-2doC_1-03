@@ -14,7 +14,7 @@ De acuerdo con lo solicitado por la cátedra, se utiliza el siguiente código de
 
 * 🟢 **Verde (Completado):** El requisito se encuentra implementado en firmware/hardware, integrado y validado mediante pruebas funcionales.
 * 🟡 **Amarillo (En Progreso):** El requisito se encuentra parcialmente desarrollado, en etapa de prototipado en protoboard/simulación o pendiente de validación/integración.
-* 🔴 **Rojo (No Iniciado):** El requisito aún no ha comenzado a desarrollarse.
+* 🔴 **Rojo (No se implementará):** El requisito no será implementado. 
 
 ---
 
