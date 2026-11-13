@@ -12,34 +12,83 @@
 
 De acuerdo con lo solicitado por la cátedra, se utiliza el siguiente código de colores para reflejar el estado real de implementación de cada requisito del proyecto:
 
-* 🟢 **Verde:** El requisito <ins> se encuentra implementado </ins> en firmware/hardware, integrado y validado mediante pruebas funcionales.
-* 🟡 **Amarillo:** El requisito <ins> se encuentra parcialmente desarrollado</ins>, en etapa de prototipado en protoboard/simulación o pendiente de validación/integración.
-* 🔴 **Rojo:** El requisito <ins> no será implementado </ins>. 
-
----
+* 🟢 **Verde (Completado):** El requisito se encuentra implementado en firmware/hardware, integrado y validado mediante pruebas funcionales.
+* 🟡 **Amarillo (En Progreso):** El requisito se encuentra parcialmente desarrollado, en etapa de prototipado en protoboard/simulación o pendiente de validación/integración.
+* 🔴 **Rojo (No Iniciado):** El requisito aún no ha comenzado a desarrollarse.
 
 ## 2. Estado de Requisitos del Proyecto (WBS)
 
 A continuación se detalla el desglose de requisitos funcionales y de hardware correspondientes a la alternativa seleccionada (*Generador Básico + Pantalla OLED + Bluetooth + Memoria*):
 
-| Grupo | ID | Descripción del Requisito | Estado |
-| :--- | :---: | :--- | :---: |
-| **1. Generación de Señales** | 1.1 | El sistema deberá generar una señal de forma **senoidal**. | 🔴 Rojo |
-| | 1.2 | El sistema deberá generar una señal de forma **cuadrada**. | 🔴 Rojo |
-| | 1.3 | El sistema deberá generar una señal de forma **triangular**. | 🔴 Rojo |
-| | 1.4 | El sistema deberá contar con una etapa analógica de acondicionamiento y salida de señal. | 🔴 Rojo |
-| **2. Control de Parámetros** | 2.1 | El usuario podrá seleccionar el tipo de forma de onda a generar (senoidal, cuadrada, triangular). | 🔴 Rojo |
-| | 2.2 | El usuario podrá configurar la **frecuencia** de la señal mediante entradas analógicas/controles físicos. | 🔴 Rojo |
-| | 2.3 | El usuario podrá configurar la **amplitud** de la señal mediante entradas analógicas/controles físicos. | 🔴 Rojo |
-| | 2.4 | El usuario podrá configurar el **duty-cycle** (ciclo de trabajo) de la señal. | 🔴 Rojo |
-| | 2.5 | El usuario podrá configurar el **offset** (nivel de continua) de la señal. | 🔴 Rojo |
-| **3. Interfaz Visual (OLED)** | 3.1 | El sistema contará con una pantalla OLED para mostrar los parámetros configurados (forma de onda, frecuencia, amplitud, duty-cycle y offset). | 🔴 Rojo |
-| | 3.2 | La pantalla OLED graficará una representación visual de la forma de onda configurada. | 🔴 Rojo |
-| **4. Conectividad Bluetooth** | 4.1 | El sistema contará con un módulo Bluetooth para establecer comunicación inalámbrica externa. | 🔴 Rojo |
-| | 4.2 | El sistema permitirá recibir comandos de configuración de parámetros de forma remota vía Bluetooth. | 🔴 Rojo |
-| | 4.3 | El sistema enviará el estado y los parámetros actuales de la señal al dispositivo conectado por Bluetooth. | 🔴 Rojo |
-| **5. Almacenamiento (Memoria)** | 5.1 | El sistema contará con memoria no volátil para almacenar perfiles/configuraciones de usuario. | 🔴 Rojo |
-| | 5.2 | El sistema permitirá guardar y recuperar configuraciones previas tras un reinicio o corte de energía. | 🔴 Rojo |
+### 1. Generación de Señales
+
+| Req ID | Descripción | Estado |
+| :---: | :--- | :---: |
+| 1.1 | El sistema deberá generar las señales básicas | 🔴 |
+| 1.1.1 | Señal de forma senoidal. | 🔴 |
+| 1.1.2 | Señal de forma cuadrada. | 🔴 |
+| 1.1.3 | Señal de forma triangular. | 🔴 |
+| 1.2 | El sistema deberá generar las señales especiales | 🔴 |
+| 1.2.1 | Señal de forma exponencial periódica | 🔴 |
+| 1.2.2 | Señal de forma pulsos | 🔴 |
+| 1.2.3 | Señal de forma sumatoria de senoidales | 🔴 |
+| 1.2.4 | Señal de forma ruido gaussiano | 🔴 |
+| 1.2.5 | Señal de forma senoidal rectificada de media onda | 🔴 |
+| 1.2.6 | Señal de forma senoidal rectificada de onda completa | 🔴 |
+
+### 2. Tratamiento de la señal
+
+| Req ID | Descripción | Estado |
+| :---: | :--- | :---: |
+| 2.1 | Configuración del DAC | 🔴 |
+| 2.2 | Acondicionamiento de la señal | 🔴 |
+| 2.2.1 | Filtrado | 🔴 |
+| 2.2.2 | Offset default | 🔴 |
+| 2.2.3 | Amplificación / Atenuación default | 🔴 |
+
+### 3. Interfaz de Usuario y Controles
+
+| Req ID | Descripción | Estado |
+| :---: | :--- | :---: |
+| 3.1 | Selección del tipo de forma de onda a generar | 🔴 |
+| 3.2 | Configuración de frecuencia | 🔴 |
+| 3.3 | Configuración de amplitud | 🔴 |
+| 3.4 | Configuración de duty-cycle | 🔴 |
+| 3.5 | Configuración de offset | 🔴 |
+
+### 4. Interfaz Visual (OLED)
+
+| Req ID | Descripción | Estado |
+| :---: | :--- | :---: |
+| 4.1 | Visualización de parámetros configurados (forma de onda, frecuencia, amplitud, duty-cycle y offset). | 🔴 |
+| 4.2 | Visualización de señal configurada medida | 🔴 |
+
+### 5. Conectividad Bluetooth
+
+| Req ID | Descripción | Estado |
+| :---: | :--- | :---: |
+| 5.1 | Comunicación inalámbrica externa | 🔴 |
+| 5.2 | Recibir comandos de configuración de parámetros | 🔴 |
+| 5.3 | Visualización remota de la señal medida y parámetros | 🔴 |
+
+### 6. Almacenamiento (Memoria externa)
+
+| Req ID | Descripción | Estado |
+| :---: | :--- | :---: |
+| 6.1 | Guardado de señales customizadas/especiales | 🔴 |
+
+### 7. Indicadores y alarmas
+
+| Req ID | Descripción | Estado |
+| :---: | :--- | :---: |
+| 7.1 | Led indicador | 🔴 |
+| 7.2 | Buzzer de alarma | 🔴 |
+
+### 8. Botones
+
+| Req ID | Descripción | Estado |
+| :---: | :--- | :---: |
+| 8.1 | Botón on/off | 🔴 |
 
 ---
 
