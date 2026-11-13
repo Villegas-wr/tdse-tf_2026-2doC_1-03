@@ -136,7 +136,7 @@ A continuación se detallan los módulos del diagrama:
    * **Pantalla OLED (SPI / I²C):** Periférico de salida de alta resolución para la representación visual del menú interactivo, estado de conexión Bluetooth y lecturas de sensores. La elección del bus SPI o I²C depende del compromiso entre velocidad de refresco y consumo de pines GPIO.
    * **DAC Externo (SPI):** Convertidor Digital-Analógico dedicado fuera del chip del microcontrolador. Comunicado por un bus SPI de alta velocidad, se encarga de reconstruir waveforms o señales analógicas a partir de los datos procesados digitalmente por el MCU.
 5. **Subsistema de Almacenamiento y Comunicaciones**
-   * **Memoria Externa (SPI / I²C):** Módulo EEPROM o Flash no volátil externa. Permite guardar la tabla de parámetros ajustados en el modo SET_UP, garantizando que la configuración persista tras un reinicio o corte de energía.
+   * **Memoria Externa (SPI / I²C):** Módulo EEPROM o Flash no volátil externa. Permite guardar las señales customizadas, garantizando que la configuración persista tras un reinicio o corte de energía.
    * **Módulo de Bluetooth (UART):** Módulo de transmisión inalámbrica (ej. HM-10 / BLE) conectado a la interfaz UART del microcontrolador (pines TX/RX). Facilita el intercambio bidireccional de tramas de datos entre la aplicación móvil de control y el firmware.
 
 ## 2. Elicitación de requisitos y casos de uso
