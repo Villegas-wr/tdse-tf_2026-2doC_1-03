@@ -52,32 +52,32 @@ A continuación se detalla el desglose de requisitos funcionales y de hardware c
 
 | Req ID | Descripción | Estado |
 | :---: | :--- | :---: |
-| 3.1 | Selección del tipo de forma de onda a generar | 🔴 |
-| 3.2 | Configuración de frecuencia | 🔴 |
-| 3.3 | Configuración de amplitud | 🔴 |
-| 3.4 | Configuración de duty-cycle | 🔴 |
-| 3.5 | Configuración de offset | 🔴 |
+| 3.1 | Selección del tipo de forma de onda a generar | 🟡 |
+| 3.2 | Configuración de frecuencia | 🟡|
+| 3.3 | Configuración de amplitud | 🟡 |
+| 3.4 | Configuración de duty-cycle | 🟡 |
+| 3.5 | Configuración de offset | 🟡 |
 
 ### 4. Interfaz Visual (OLED)
 
 | Req ID | Descripción | Estado |
 | :---: | :--- | :---: |
-| 4.1 | Visualización de parámetros configurados (forma de onda, frecuencia, amplitud, duty-cycle y offset). | 🔴 |
-| 4.2 | Visualización de señal configurada medida | 🔴 |
+| 4.1 | Visualización de parámetros configurados (forma de onda, frecuencia, amplitud, duty-cycle y offset). | 🟡 |
+| 4.2 | Visualización de señal configurada medida | 🟡 |
 
 ### 5. Conectividad Bluetooth
 
 | Req ID | Descripción | Estado |
 | :---: | :--- | :---: |
-| 5.1 | Comunicación inalámbrica externa | 🔴 |
-| 5.2 | Recibir comandos de configuración de parámetros | 🔴 |
-| 5.3 | Visualización remota de la señal medida y parámetros | 🔴 |
+| 5.1 | Comunicación inalámbrica externa | 🟡 |
+| 5.2 | Recibir comandos de configuración de parámetros | 🟡 |
+| 5.3 | Visualización remota de la señal medida y parámetros | 🟡 |
 
 ### 6. Almacenamiento (Memoria externa)
 
 | Req ID | Descripción | Estado |
 | :---: | :--- | :---: |
-| 6.1 | Guardado de señales customizadas/especiales | 🔴 |
+| 6.1 | Guardado de señales customizadas/especiales | 🟡 |
 
 ### 7. Indicadores y alarmas
 
@@ -98,7 +98,7 @@ A continuación se detalla el desglose de requisitos funcionales y de hardware c
 | :---: | :--- | :---: |
 | 9.1 | Arquitectura Bare Metal, modular (Escrutar / Procesar / Actuar) y patrón Super-Loop. | 🟢 |
 | 9.2 | El tiempo de ejecución por vuelta del bucle principal debe ser inferior a 1 ms. | 🟢 |
-| 9.3 | Todo el circuito debe ser montado y soldado sobre la placa experimental elegida. | 🔴 |
+| 9.3 | Todo el circuito debe ser montado y soldado sobre la placa experimental elegida. | 🟡 |
 
 **Observaciones y Estado General del Desarrollo**
 * **Avances:** Se lograron generar las funciones basicas (senoidal, cuadrada y triangular) y comenzar a preparar el condicionamiento de la señal.
